@@ -1,12 +1,76 @@
-.header {
-    display: flex;
-    justify-content: space-around;
+body {
+    font-family:"Manrope", sans-serif;
+    
+    
 }
 
-.Vaultico-logo > img {
+.header {
+    display: flex;
+    gap: 140px;
+    flex-direction: row;
+    margin-top: 10px;
+    position: fixed;
+    height: 75px; 
+    margin-left: 20px;
+    margin-right: 20px;
+} 
+
+.header div {
+    align-content: center;
+}
+
+.Vaultico-logo  img {
     width: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .about-us {
+    display: inline-flex;
+    gap: 74px;
+    font-weight: 700;
+    flex-grow: 0;
+    flex-shrink: 1;
+    color :#636363;
+}
+
+.about-us > div >a , img{
+    color :#636363;
+    align-self: center;
+}
+
+.about-us > div {
+    display: flex;
     
+}
+
+.about-us > div > img {
+    width: 20px;
+    height: 20px;
+}
+
+.green-button {
+    display: flex;
+    background-color:  #6FC247;
+    border-radius: 10px;
+    align-content: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.green-button > a {
+    color: white;
+    font-weight: 700;
+    padding: 24px 0px 24px 40px;
+    flex-wrap: nowrap;
+    align-self: center;
+}
+
+.green-button > img {
+    padding-right: 40px;
+}
+
+
+a {
+    text-decoration: none;
 }
