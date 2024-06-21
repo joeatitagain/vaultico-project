@@ -8,11 +8,14 @@ body {
     display: flex;
     gap: 140px;
     flex-direction: row;
-    margin-top: 10px;
+    padding-top: 20px;
     position: fixed;
-    height: 75px; 
-    margin-left: 20px;
-    margin-right: 20px;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    padding-bottom: 20px;
+    justify-content: space-between;
 } 
 
 .header div {
@@ -23,11 +26,12 @@ body {
     width: 150px;
     flex-grow: 0;
     flex-shrink: 0;
+    margin-left: 30px;
 }
 
 .about-us {
     display: inline-flex;
-    gap: 74px;
+    gap: 65px;
     font-weight: 700;
     flex-grow: 0;
     flex-shrink: 1;
@@ -41,7 +45,7 @@ body {
 
 .about-us > div {
     display: flex;
-    
+    gap: 6px;
 }
 
 .about-us > div > img {
@@ -56,6 +60,7 @@ body {
     align-content: center;
     flex-grow: 0;
     flex-shrink: 0;
+    margin-right: 30px;
 }
 
 .green-button > a {
@@ -74,3 +79,57 @@ body {
 a {
     text-decoration: none;
 }
+
+.sub-head {
+    padding-top: 10%;
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+.first-head > h2 {
+    font-size: 60px;
+    line-height: 87.42px;
+    color: #373737;
+}
+
+.first-para > p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+.two-buttons {
+    width: 480px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.sub-h {
+    width: 230px;
+}
+
+.login {
+    width: 230px;
+    background-color: white;
+    border: 1px  #6FC247 solid;
+}
+
+.login > a {
+    color: #6FC247;
+    padding-left: 0;
+    margin: auto;
+}
+
+.general-img {
+    width: 1200px;
+    margin: auto;
+}
+
+.general-img > img {
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
