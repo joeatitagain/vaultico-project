@@ -1,7 +1,6 @@
 body {
-    font-family:"Manrope", sans-serif;
-    
-    
+    font-family:"Manrope", sans-serif;  
+    margin: 0;
 }
 
 .header {
@@ -133,3 +132,104 @@ a {
     text-align: center;
 }
 
+.financial-firms {
+    text-align: center;
+    margin-top: 100px;
+    color: #373737;
+}
+
+.firms-word > h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43.71px;
+}
+
+.firms-word > p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 1000px;
+    margin: auto;
+}
+
+.firm-img {
+    width: 1200px;
+    margin: auto;
+}
+
+.firm-img > img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.question {
+    margin-top: 100px;
+    height: 350px;
+    padding: 7px 103px 82px 103px;
+    background-color: #111111;
+}
+
+.big-question {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+ 
+.big-question > h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54.64px;
+}
+
+.big-question > p {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #D7D7D7;
+    margin-bottom: 60px;
+}
+
+.three-answers {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.answers {
+    width: 340px;
+}
+
+.answers > h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32.78px;
+}
+
+.answers > p {
+    color: #D7D7D7;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.valuations {
+    width: 1062px;
+    height: 120px;
+    margin: auto;
+    color: #373737;
+    padding-top: 50px;
+}
+
+.valuations h2 {
+    font-size: 32px;
+    line-height: 43.71px;
+    text-align: center;
+}
+
+.valuations p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
