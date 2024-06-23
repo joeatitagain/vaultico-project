@@ -15,6 +15,7 @@ body {
     top: 0;
     padding-bottom: 20px;
     justify-content: space-between;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
 } 
 
 .header div {
@@ -33,7 +34,7 @@ body {
     gap: 65px;
     font-weight: 700;
     flex-grow: 0;
-    flex-shrink: 1;
+    flex-shrink: 0;
     color :#636363;
 }
 
@@ -122,7 +123,7 @@ a {
 }
 
 .general-img {
-    width: 1200px;
+    width: auto;
     margin: auto;
 }
 
@@ -153,8 +154,9 @@ a {
 }
 
 .firm-img {
-    width: 1200px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto
 }
 
 .firm-img > img {
@@ -278,4 +280,53 @@ a {
 
 .end-button {
     margin: 20px 0 50px 0;
+}
+
+@media (max-width:1080px) {
+    .about-us{
+        display: none;
+    }
+    .start {
+        display: none;
+    }
+    .first-head > h2 {
+        font-size: 60px;
+        line-height: 90px;
+        width: auto;
+    }
+    .firm-img {
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 720px;
+        margin: auto;
+    }
+    .firm-img > div {
+        width: 240px;
+    }
+    .firm-img >div> img {
+        width: 100%;
+    }
+    .firms-word > p {
+        width: 834px;
+        margin-bottom: 50px;
+    }
+    .valuations {
+        width: 775px;
+    }
+    .question{
+        height: auto;
+    }
+    .three-answers {
+        flex-direction: column;
+    }
+    .answers {
+        width: auto;
+    }
+    .perks {
+        justify-content: space-around;
+    }
+    .perk-img{
+        width: 369px;
+    }
 }
