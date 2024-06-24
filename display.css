@@ -306,22 +306,29 @@ a {
         justify-content: space-between;
     }
     .sub-head{ 
-        width: auto;
+        width: 510px;
     }
     .first-head > h2 {
-        font-size: 40px;
-        line-height: 60px;
+        font-size: 35px;
+        line-height: 50px;
         width: auto;
+    }
+    .first-para > p {
+        font-size: 15px;
+        line-height: 25px;
     }
     .firm-img {
         grid-template-columns: auto auto auto;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
-        width: 100%;
+        width: 600px;
         margin: auto;
     }
     .firm-img > div {
-        width: 100px;
+        width: 100%;
+    }
+    .firm-img > div > img {
+        margin: 0;
     }
     .firms-word > p {
         width: 834px;
@@ -330,6 +337,13 @@ a {
     .valuations {
         width: 775px;
     }
+    .valuations > h2 {
+        font-size: 24px;
+    }
+    .valuations > p {
+        font-size: 20px;
+    }
+    
     .question{
         height: auto;
         padding: 20px 50px;
@@ -357,11 +371,31 @@ a {
     .answers {
         width: auto;
     }
+    .answers > h2 {
+        font-size: 18px;
+    }
+    .answers > p {
+        font-size: 16px;
+    }
     .perks {
-        justify-content: space-around;
+        justify-content: space-between;
+        padding: 0;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .list {
+        width: auto;
+    } 
+
+    .list > h2 {
+        font-size: 18px;
+    }
+
+    .list > p {
+       font-size: 16px; 
     }
     .perk-img{
-        width: 369px;
+        width: 100%;
     }
 
     .firms-word > p {  
@@ -372,10 +406,11 @@ a {
     }
 
     .valuations {
-        width: auto;
+        width: 90%;
     }
 }
 
+@media (max-width: 600px)
 
 
 
