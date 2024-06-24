@@ -11,15 +11,20 @@ body {
     position: fixed;
     z-index: 1;
     background-color: white;
-    width: 100%;
     top: 0;
     padding-bottom: 20px;
     box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
-    right: 0;
+    right: 1px;
+    left: 1px;
+    justify-content: space-around;
 } 
 
 .header div {
     align-content: center;
+}
+
+.grid {
+    display: none;
 }
 
 .Vaultico-logo  img {
@@ -197,6 +202,7 @@ a {
 .three-answers {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
  
 .answers {
@@ -284,8 +290,11 @@ a {
     margin: 20px 0 50px 0;
 }
 
-@media (max-width:1080px) {
-    
+@media (max-width:1024px) {
+    .grid {
+        display: inline-flex;
+        margin-right: 20px;
+    }
     .about-us{
         display: none;
     }
@@ -293,10 +302,11 @@ a {
         display: none;
     }
     .header {
-        width: 100%;
+        width: auto; 
+        justify-content: space-between;
     }
     .sub-head{ 
-        width: 700px;
+        width: auto;
     }
     .first-head > h2 {
         font-size: 40px;
@@ -307,14 +317,11 @@ a {
         grid-template-columns: auto auto auto;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
-        width: 720px;
+        width: 100%;
         margin: auto;
     }
     .firm-img > div {
-        width: 240px;
-    }
-    .firm-img >div> img {
-        width: 100%;
+        width: 100px;
     }
     .firms-word > p {
         width: 834px;
@@ -325,11 +332,11 @@ a {
     }
     .question{
         height: auto;
-        padding: 4px, 0px, 4px, 0px;
+        padding: 20px 50px;
     }
 
     .big-question {
-        width: 700px;
+        width: auto;
     }
     .big-question > h2 {    
         font-size: 24px;
@@ -341,7 +348,7 @@ a {
         font-size: 15px;
         font-weight: 500;
         line-height: 40px;
-        width: 700px;
+        
     }
    
     .three-answers {
@@ -356,6 +363,28 @@ a {
     .perk-img{
         width: 369px;
     }
+
+    .firms-word > p {  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+    width: auto;
+    }
+
+    .valuations {
+        width: auto;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
