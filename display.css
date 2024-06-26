@@ -410,7 +410,95 @@ a {
     }
 }
 
-@media (max-width: 600px)
+@media (max-width: 600px) {
+    .perks {
+        flex-direction: column-reverse;
+        margin-top: 400px;
+    }
+
+    .perk-img {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .perk-list {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+
+    .list {
+        margin-bottom: 50px;
+    }
+
+    .firm-img {
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+    }
+
+    .firm-img > div {
+        width: 100%;
+    }
+
+    .financial-firms {
+        margin: 30px;
+    }    
+
+    
+
+    .green-button {
+        width: 150px;
+        margin: 0;
+    }
+    .green-button > a {
+    font-size: 10px;
+    padding: 15px;
+    }
+
+    .green-button > img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    padding: 0;
+    }
+
+    .sub-h > a {
+        margin-left: 5px;
+    }
+
+    .two-buttons {
+        width: 310px;
+    }
+
+    .sub-head {
+        width: auto;
+    }
+
+    .sub-head  h2 {
+        font-size: 30px;
+        width: auto;
+        line-height: 40px;
+        margin: 70px 20px 0;
+    }
+     
+    .sub-head p {
+        font-size: 16px;
+        margin: 30px;
+    }
+
+    .Vaultico-logo img {
+        margin-top: auto;
+        width: 100px;
+    }
+
+    .grid img{
+        width: 30px;
+    }
+
+    .end {
+        margin: auto;
+    }
+}
 
 
 
