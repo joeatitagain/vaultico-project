@@ -419,6 +419,7 @@ a {
     .perk-img {
         width: 80%;
         margin: auto;
+        height: 280px;
     }
     
     .perk-list {
